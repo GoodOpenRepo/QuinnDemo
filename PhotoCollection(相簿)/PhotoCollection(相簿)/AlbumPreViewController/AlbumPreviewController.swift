@@ -16,6 +16,7 @@ class AlbumPreviewController: UIViewController {
     @IBOutlet weak var backBt: UIButton!
     @IBOutlet weak var collectionView: UICollectionView!
     
+    @IBOutlet weak var tipView: UIView!
     
     var albumPreviewDataPovider:AlbumPreviewDataPovider?
     
@@ -25,6 +26,7 @@ class AlbumPreviewController: UIViewController {
         let status = PHPhotoLibrary.authorizationStatus()
         switch status {
         case .authorized:
+            tipView.isHidden = true
             self.changeStateToPhotos()
         case .denied:
             self.changeStateToSetting()
@@ -46,6 +48,7 @@ extension AlbumPreviewController{
         
         switch PHPhotoLibrary.authorizationStatus() {
         case .authorized:
+             tipView.isHidden = true
              changeStateToPhotos()
         case .denied:
              changeStateToSetting()

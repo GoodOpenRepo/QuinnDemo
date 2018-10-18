@@ -165,6 +165,7 @@
                         <outlet property="backBt" destination="8Ga-7q-Zsm" id="HQ5-TN-inl"/>
                         <outlet property="changeStateBT" destination="bX4-fD-GRf" id="xib-Br-bzD"/>
                         <outlet property="collectionView" destination="QTH-qO-Sau" id="efd-JV-Ifh"/>
+                        <outlet property="tipView" destination="3el-LL-mNt" id="xZC-LA-blo"/>
                         <outlet property="titleLB" destination="KYH-SS-Gpf" id="ePz-Lo-PVH"/>
                     </connections>
                 </viewController>
@@ -174,6 +175,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="btnbackground" width="16" height="16"/>
+        <image name="btnbackground" width="270" height="54"/>
     </resources>
 </document>
