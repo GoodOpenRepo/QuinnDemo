@@ -1,0 +1,21 @@
+{
+    "title":null,
+    "timeInfo": {
+		"open": true,
+		"style": 0
+	},
+	"loaction": {
+		"open": true,
+		"defaultContent": "未知"
+	},
+	"coord": {
+		"open": true,
+		"style": 0
+	},
+	"altitude": {
+		"open": true
+	},
+	"weather": {
+		"open": true
+	}
+}
