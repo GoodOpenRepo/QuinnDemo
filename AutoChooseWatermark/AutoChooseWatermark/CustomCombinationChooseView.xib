@@ -125,10 +125,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwE-dc-Zin">
-                                                    <rect key="frame" x="194" y="0.0" width="46" height="60"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="46" id="2Df-Lr-iPg"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="64" y="0.0" width="176" height="60"/>
                                                     <connections>
                                                         <action selector="clickArrowBT:" destination="-1" eventType="touchUpInside" id="teJ-Uz-l0g"/>
                                                     </connections>
@@ -142,6 +139,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="v8k-VP-EgN" secondAttribute="trailing" id="Fk5-p9-Bfr"/>
                                                 <constraint firstItem="OQc-OE-0nM" firstAttribute="leading" secondItem="hMf-JA-Ca5" secondAttribute="leading" id="OMB-zV-vSv"/>
                                                 <constraint firstAttribute="trailing" secondItem="OQc-OE-0nM" secondAttribute="trailing" constant="15" id="OyQ-xZ-mu0"/>
+                                                <constraint firstItem="XwE-dc-Zin" firstAttribute="leading" secondItem="e6S-cR-WJi" secondAttribute="trailing" constant="15" id="cOh-Vc-nnf"/>
                                                 <constraint firstItem="XwE-dc-Zin" firstAttribute="top" secondItem="uvU-XY-zgz" secondAttribute="top" id="caP-j4-EXw"/>
                                                 <constraint firstAttribute="bottom" secondItem="XwE-dc-Zin" secondAttribute="bottom" id="f1P-Hu-Sm0"/>
                                                 <constraint firstAttribute="trailing" secondItem="XwE-dc-Zin" secondAttribute="trailing" id="fdf-J8-ST0"/>
@@ -187,10 +185,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldA-92-vax">
-                                                    <rect key="frame" x="194" y="0.0" width="46" height="60"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="46" id="qdq-Kn-apW"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="64" y="0.0" width="176" height="60"/>
                                                     <connections>
                                                         <action selector="clickArrowBT:" destination="-1" eventType="touchUpInside" id="1sf-h5-rg9"/>
                                                     </connections>
@@ -218,6 +213,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="ldA-92-vax" secondAttribute="trailing" id="fOf-HC-FCy"/>
                                                 <constraint firstItem="TBG-Hg-z0u" firstAttribute="centerY" secondItem="BsF-CF-bl6" secondAttribute="centerY" id="fyX-Us-UMg"/>
                                                 <constraint firstAttribute="height" constant="60" id="h9U-4o-kvH"/>
+                                                <constraint firstItem="ldA-92-vax" firstAttribute="leading" secondItem="gaz-iq-ijd" secondAttribute="trailing" constant="15" id="i08-5u-gdG"/>
                                                 <constraint firstItem="dDe-Nt-IKk" firstAttribute="leading" secondItem="BsF-CF-bl6" secondAttribute="leading" id="ivL-eL-TLH"/>
                                                 <constraint firstAttribute="trailing" secondItem="dDe-Nt-IKk" secondAttribute="trailing" id="pIV-rK-VFl"/>
                                                 <constraint firstItem="gaz-iq-ijd" firstAttribute="top" secondItem="BsF-CF-bl6" secondAttribute="top" constant="15" id="vLr-rT-MXZ"/>
@@ -259,10 +255,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtO-qc-kxi">
-                                                    <rect key="frame" x="194" y="0.0" width="46" height="60"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="46" id="Vbm-Ri-IF7"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="64" y="0.0" width="176" height="60"/>
                                                     <connections>
                                                         <action selector="clickArrowBT:" destination="-1" eventType="touchUpInside" id="0W1-dF-Jkt"/>
                                                     </connections>
@@ -281,6 +274,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="mqa-16-ohL" secondAttribute="trailing" constant="15" id="819-Mv-oqt"/>
                                                 <constraint firstAttribute="trailing" secondItem="8dA-Na-ekx" secondAttribute="trailing" id="85J-hc-AZ5"/>
                                                 <constraint firstItem="sw3-wn-OmX" firstAttribute="leading" secondItem="wtM-6D-0Oa" secondAttribute="trailing" constant="15" id="8oZ-lu-lXp"/>
+                                                <constraint firstItem="VtO-qc-kxi" firstAttribute="leading" secondItem="wtM-6D-0Oa" secondAttribute="trailing" constant="15" id="ARd-cR-68r"/>
                                                 <constraint firstItem="8dA-Na-ekx" firstAttribute="top" secondItem="S9m-te-Ub3" secondAttribute="top" id="FXq-Ta-569"/>
                                                 <constraint firstItem="VtO-qc-kxi" firstAttribute="top" secondItem="S9m-te-Ub3" secondAttribute="top" id="G2D-HJ-wVB"/>
                                                 <constraint firstAttribute="trailing" secondItem="VtO-qc-kxi" secondAttribute="trailing" id="GGi-bY-bgM"/>

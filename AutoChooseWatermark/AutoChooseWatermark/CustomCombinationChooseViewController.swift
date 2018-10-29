@@ -20,7 +20,7 @@ class CustomCombinationChooseViewController: NSObject {
     @IBOutlet weak var textViewHeight: NSLayoutConstraint!
     @IBOutlet weak var placeHolderLB: UILabel!
     
-    //时间
+    ///时间
     @IBOutlet weak var timeSwitch: UISwitch!
     @IBOutlet weak var timeLB: UILabel!
     ///地点
@@ -32,7 +32,7 @@ class CustomCombinationChooseViewController: NSObject {
     ///海拔
     @IBOutlet weak var altitudeSwitch: UISwitch!
     @IBOutlet weak var altitudeLB: UILabel!
-    //天气
+    ///天气
     @IBOutlet weak var weatherSwitch: UISwitch!
     @IBOutlet weak var weatherLB: UILabel!
     
