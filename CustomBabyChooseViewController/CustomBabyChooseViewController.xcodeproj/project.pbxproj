@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E431F6CE2186DB43001CDB60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E431F6CD2186DB43001CDB60 /* Assets.xcassets */; };
+		E431F6D121870F78001CDB60 /* CustomBabyChooseWatermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E431F6D021870F78001CDB60 /* CustomBabyChooseWatermark.swift */; };
+		E431F6D321870F81001CDB60 /* CustomBabyChooseWatermark.xib in Resources */ = {isa = PBXBuildFile; fileRef = E431F6D221870F81001CDB60 /* CustomBabyChooseWatermark.xib */; };
 		E457557A2182F6B900B1C90C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45755792182F6B900B1C90C /* AppDelegate.swift */; };
 		E457557C2182F6B900B1C90C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457557B2182F6B900B1C90C /* ViewController.swift */; };
 		E457557F2182F6B900B1C90C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E457557D2182F6B900B1C90C /* Main.storyboard */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		E431F6CD2186DB43001CDB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E431F6D021870F78001CDB60 /* CustomBabyChooseWatermark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBabyChooseWatermark.swift; sourceTree = "<group>"; };
+		E431F6D221870F81001CDB60 /* CustomBabyChooseWatermark.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomBabyChooseWatermark.xib; sourceTree = "<group>"; };
 		E45755762182F6B900B1C90C /* CustomBabyChooseViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBabyChooseViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E45755792182F6B900B1C90C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E457557B2182F6B900B1C90C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E431F6CF21870F42001CDB60 /* CustomBabyChooseWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				E431F6D021870F78001CDB60 /* CustomBabyChooseWatermark.swift */,
+				E431F6D221870F81001CDB60 /* CustomBabyChooseWatermark.xib */,
+			);
+			path = CustomBabyChooseWatermark;
+			sourceTree = "<group>";
+		};
 		E457556D2182F6B800B1C90C = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +81,7 @@
 			children = (
 				E45755792182F6B900B1C90C /* AppDelegate.swift */,
 				E457557B2182F6B900B1C90C /* ViewController.swift */,
+				E431F6CF21870F42001CDB60 /* CustomBabyChooseWatermark */,
 				E457558B2182F77600B1C90C /* CustomBabyChooseViewController */,
 				E457557D2182F6B900B1C90C /* Main.storyboard */,
 				E431F6CD2186DB43001CDB60 /* Assets.xcassets */,
@@ -156,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E431F6D321870F81001CDB60 /* CustomBabyChooseWatermark.xib in Resources */,
 				E457559F21830A4800B1C90C /* CustomBabyChooseCollectionViewCell.xib in Resources */,
 				E45755842182F6B900B1C90C /* LaunchScreen.storyboard in Resources */,
 				E457558F2182F7D400B1C90C /* CustomBabyChooseView.xib in Resources */,
@@ -173,6 +188,7 @@
 			files = (
 				E457559E218307DC00B1C90C /* CustomBabyChooseCollectionViewCell.swift in Sources */,
 				E457557C2182F6B900B1C90C /* ViewController.swift in Sources */,
+				E431F6D121870F78001CDB60 /* CustomBabyChooseWatermark.swift in Sources */,
 				E45755A321831EBB00B1C90C /* CustomBabyModels.swift in Sources */,
 				E457559C2183070000B1C90C /* CustomBabyChooseCollectionFlowLayout.swift in Sources */,
 				E457558D2182F78500B1C90C /* CustomBabyChooseViewController.swift in Sources */,
