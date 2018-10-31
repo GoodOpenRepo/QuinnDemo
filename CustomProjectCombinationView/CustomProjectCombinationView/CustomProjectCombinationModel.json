@@ -1,0 +1,36 @@
+{
+	"name":{
+		"open":false,
+		"content":""
+	},"area":{
+		"open":false,
+		"content":""
+	},"content":{
+		"open":false,
+		"content":""
+	},"people":{
+		"open":false,
+		"content":""
+	},"supervision":{
+		"open":false,
+		"content":""
+	},"currentTime":{
+		"open":true,
+		"style":0,
+		"content":""
+	},"location":{
+		"open":true,
+		"style":0,
+		"content":""
+	},"constructionUnit":{
+		"open":false,
+		"content":""
+	},"supervisionUnit":{
+		"open":false,
+		"content":""
+	},"buildUnit":{
+		"open":false,
+		"content":""
+	},
+	"otherInfo":""
+}
