@@ -13,6 +13,12 @@
 		E4C066AC21C24C3900168568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C066AA21C24C3900168568 /* Main.storyboard */; };
 		E4C066AE21C24C3A00168568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C066AD21C24C3A00168568 /* Assets.xcassets */; };
 		E4C066B121C24C3A00168568 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C066AF21C24C3A00168568 /* LaunchScreen.storyboard */; };
+		E4C066BA21C24CEC00168568 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C066B921C24CEC00168568 /* Music.swift */; };
+		E4C066BC21C24E1500168568 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C066BB21C24E1500168568 /* MusicViewController.swift */; };
+		E4C066BE21C28C2500168568 /* ObservableTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C066BD21C28C2500168568 /* ObservableTestViewController.swift */; };
+		E4C066C021C348C900168568 /* ObserverTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C066BF21C348C900168568 /* ObserverTestViewController.swift */; };
+		E4C066C721C37EB500168568 /* CustomObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C066C621C37EB500168568 /* CustomObserverViewController.swift */; };
+		E4C066D421C38ED700168568 /* SubjectsTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C066D321C38ED700168568 /* SubjectsTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		E4C066AD21C24C3A00168568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4C066B021C24C3A00168568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4C066B221C24C3A00168568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C066B921C24CEC00168568 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		E4C066BB21C24E1500168568 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		E4C066BD21C28C2500168568 /* ObservableTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableTestViewController.swift; sourceTree = "<group>"; };
+		E4C066BF21C348C900168568 /* ObserverTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverTestViewController.swift; sourceTree = "<group>"; };
+		E4C066C621C37EB500168568 /* CustomObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomObserverViewController.swift; sourceTree = "<group>"; };
+		E4C066D321C38ED700168568 /* SubjectsTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +92,26 @@
 			children = (
 				E4C066A621C24C3900168568 /* AppDelegate.swift */,
 				E4C066A821C24C3900168568 /* ViewController.swift */,
+				E4C066B821C24CCA00168568 /* RxPlayer */,
 				E4C066AA21C24C3900168568 /* Main.storyboard */,
 				E4C066AD21C24C3A00168568 /* Assets.xcassets */,
 				E4C066AF21C24C3A00168568 /* LaunchScreen.storyboard */,
 				E4C066B221C24C3A00168568 /* Info.plist */,
 			);
 			path = RxDemo;
+			sourceTree = "<group>";
+		};
+		E4C066B821C24CCA00168568 /* RxPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E4C066B921C24CEC00168568 /* Music.swift */,
+				E4C066BB21C24E1500168568 /* MusicViewController.swift */,
+				E4C066BD21C28C2500168568 /* ObservableTestViewController.swift */,
+				E4C066BF21C348C900168568 /* ObserverTestViewController.swift */,
+				E4C066C621C37EB500168568 /* CustomObserverViewController.swift */,
+				E4C066D321C38ED700168568 /* SubjectsTestViewController.swift */,
+			);
+			path = RxPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +238,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C066C021C348C900168568 /* ObserverTestViewController.swift in Sources */,
+				E4C066C721C37EB500168568 /* CustomObserverViewController.swift in Sources */,
+				E4C066D421C38ED700168568 /* SubjectsTestViewController.swift in Sources */,
+				E4C066BC21C24E1500168568 /* MusicViewController.swift in Sources */,
 				E4C066A921C24C3900168568 /* ViewController.swift in Sources */,
 				E4C066A721C24C3900168568 /* AppDelegate.swift in Sources */,
+				E4C066BA21C24CEC00168568 /* Music.swift in Sources */,
+				E4C066BE21C28C2500168568 /* ObservableTestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
