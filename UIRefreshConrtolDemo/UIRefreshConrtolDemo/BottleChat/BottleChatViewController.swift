@@ -79,8 +79,15 @@ extension BottleChatViewController:UITextFieldDelegate{
             newMessage.source = 0
             newMessage.content = textField.text!
             messageList?.append(newMessage)
-            tableView.insertRows(at: [IndexPath(row: (messageList?.count ?? 0) - 1, section: 0)], with: .none)
-            tableView.reloadRows(at: [IndexPath(row: (self.messageList?.count ?? 0) - 1, section: 0)], with: .automatic)
+            let moveHeight = self.tableView.contentSize.height - self.tableView.frame.height - 8
+            if  moveHeight > 0{
+                tableView.insertRows(at: [IndexPath(row: (messageList?.count ?? 0) - 1, section: 0)], with: .none)
+                tableView.reloadRows(at: [IndexPath(row: (self.messageList?.count ?? 0) - 1, section: 0)], with: .automatic)
+            }else{
+                tableView.reloadData()
+
+            }
+
             scrollToEnd(animation:true)
 
 //            UIView.animate(withDuration: 0.2, animations: {

@@ -16,6 +16,7 @@ class BottleListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTableView()
+        self.navigationController?.navigationBar.isHidden = true
         requestBottleList { [weak self](list) in
             self?.bottleList = list
             self?.tableView.reloadData()
