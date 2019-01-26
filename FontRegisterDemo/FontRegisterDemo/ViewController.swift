@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         
     }
 
-    
     func downLoadFont(){
         let libPath = FileManager.default.urls(for: .allLibrariesDirectory, in: .userDomainMask).first!
         let path = libPath.appendingPathComponent("zzzz.ttf")
@@ -32,11 +31,18 @@ class ViewController: UIViewController {
             
             //先注册
             try? UIFont.register(url: path)
-            //再使用
+//            //再使用
             DispatchQueue.main.async {[weak self]in
-                self?.textLabel.font = UIFont.init(name: "DFFunnyEnglish", size: 18)
-                self?.textLabel.text = "FHJKBVCVBNM"
+                print(self?.textLabel.font.familyName)
+
+//                self?.textLabel.font = UIFont.init(name: "DFFunnyEnglish", size: 18)
+//                self?.textLabel.text = "FHJKBVCVBNM"
             }
+            
+            
+            //发送通知
+            
+            //sticker reload init 方法中
         }
         task.resume()
     }

@@ -8,7 +8,9 @@
 		<true/>
 	</dict>
 	<key>UIAppFonts</key>
-	<array/>
+	<array>
+		<string>zzztest.ttf</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
