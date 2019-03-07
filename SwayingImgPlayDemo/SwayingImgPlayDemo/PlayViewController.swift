@@ -49,7 +49,7 @@ class PlayViewController: UIViewController {
         rotateView.hiddenRoll(false)
         view.addSubview(rotateView)
         rotateView.direction = .fromLeft
-        rotateView.cellType = .loginType
+        rotateView.cellType = .homePageType
         rotateView.y = 607 * HEIGHT_SCALE
         rotateView.updateFrame()
         

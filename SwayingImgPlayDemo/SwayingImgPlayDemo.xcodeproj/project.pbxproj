@@ -20,7 +20,6 @@
 		E4C725C521F9950400C74A1A /* SwingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C725C421F9950400C74A1A /* SwingHelper.swift */; };
 		E4C725C721F9981D00C74A1A /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C725C621F9981D00C74A1A /* PlayViewController.swift */; };
 		E4C725CC21F998DA00C74A1A /* SwingRotateBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C725CB21F998DA00C74A1A /* SwingRotateBarView.swift */; };
-		E4C725CE21F9990400C74A1A /* ImagePanScrollBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C725CD21F9990300C74A1A /* ImagePanScrollBarView.swift */; };
 		E4C725D121F99AB200C74A1A /* login_back_images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4C725D021F99AB100C74A1A /* login_back_images.bundle */; };
 		E4C725D321F9A54200C74A1A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C725D221F9A54100C74A1A /* UIImage+Extension.swift */; };
 		E4C725D521F9A65300C74A1A /* login_back_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E4C725D421F9A65300C74A1A /* login_back_music.mp3 */; };
@@ -42,7 +41,6 @@
 		E4C725C421F9950400C74A1A /* SwingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingHelper.swift; sourceTree = "<group>"; };
 		E4C725C621F9981D00C74A1A /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		E4C725CB21F998DA00C74A1A /* SwingRotateBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwingRotateBarView.swift; sourceTree = "<group>"; };
-		E4C725CD21F9990300C74A1A /* ImagePanScrollBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePanScrollBarView.swift; sourceTree = "<group>"; };
 		E4C725D021F99AB100C74A1A /* login_back_images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = login_back_images.bundle; sourceTree = "<group>"; };
 		E4C725D221F9A54100C74A1A /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		E4C725D421F9A65300C74A1A /* login_back_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = login_back_music.mp3; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 		E4C725CA21F998D000C74A1A /* SwingView */ = {
 			isa = PBXGroup;
 			children = (
-				E4C725CD21F9990300C74A1A /* ImagePanScrollBarView.swift */,
 				E4C725CB21F998DA00C74A1A /* SwingRotateBarView.swift */,
 			);
 			path = SwingView;
@@ -208,7 +205,6 @@
 				E4C725C221F9947D00C74A1A /* Gyro.swift in Sources */,
 				E4C725C121F9947D00C74A1A /* SwingPlayer.swift in Sources */,
 				E4C725D321F9A54200C74A1A /* UIImage+Extension.swift in Sources */,
-				E4C725CE21F9990400C74A1A /* ImagePanScrollBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

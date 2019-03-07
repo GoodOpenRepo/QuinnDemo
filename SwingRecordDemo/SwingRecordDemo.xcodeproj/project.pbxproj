@@ -11,6 +11,8 @@
 		E41F8F4021FC088500D965A3 /* 4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E41F8F3F21FC088500D965A3 /* 4.mp4 */; };
 		E41F8F4221FC320D00D965A3 /* 1548483163476633.MOV in Resources */ = {isa = PBXBuildFile; fileRef = E41F8F4121FC320D00D965A3 /* 1548483163476633.MOV */; };
 		E41F8F4421FC338300D965A3 /* 1548483512759682.MOV in Resources */ = {isa = PBXBuildFile; fileRef = E41F8F4321FC338300D965A3 /* 1548483512759682.MOV */; };
+		E4ACC0D422291411006775E9 /* BufferReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ACC0D322291411006775E9 /* BufferReader.m */; };
+		E4ACC0D62229169A006775E9 /* 1551425248084953.MOV in Resources */ = {isa = PBXBuildFile; fileRef = E4ACC0D52229169A006775E9 /* 1551425248084953.MOV */; };
 		E4C725E321F9A72B00C74A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C725E221F9A72B00C74A1A /* AppDelegate.swift */; };
 		E4C725E521F9A72B00C74A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C725E421F9A72B00C74A1A /* ViewController.swift */; };
 		E4C725E821F9A72B00C74A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C725E621F9A72B00C74A1A /* Main.storyboard */; };
@@ -28,7 +30,6 @@
 		E4C7261821F9C92F00C74A1A /* FrameDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7260721F9C92F00C74A1A /* FrameDecoder.swift */; };
 		E4C7261921F9C92F00C74A1A /* FrameReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7260821F9C92F00C74A1A /* FrameReader.swift */; };
 		E4C7261A21F9C92F00C74A1A /* FrameFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7260921F9C92F00C74A1A /* FrameFileReader.swift */; };
-		E4C7262521F9CEF800C74A1A /* BufferReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C7262421F9CEF800C74A1A /* BufferReader.m */; };
 		E4C7263A21F9D83100C74A1A /* SwingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C7263921F9D83100C74A1A /* SwingHelper.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,9 @@
 		E41F8F3F21FC088500D965A3 /* 4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.mp4; sourceTree = "<group>"; };
 		E41F8F4121FC320D00D965A3 /* 1548483163476633.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1548483163476633.MOV; sourceTree = "<group>"; };
 		E41F8F4321FC338300D965A3 /* 1548483512759682.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1548483512759682.MOV; sourceTree = "<group>"; };
+		E4ACC0D222291411006775E9 /* BufferReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferReader.h; sourceTree = "<group>"; };
+		E4ACC0D322291411006775E9 /* BufferReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferReader.m; sourceTree = "<group>"; };
+		E4ACC0D52229169A006775E9 /* 1551425248084953.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1551425248084953.MOV; sourceTree = "<group>"; };
 		E4C725DF21F9A72B00C74A1A /* SwingRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C725E221F9A72B00C74A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4C725E421F9A72B00C74A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,8 +64,6 @@
 		E4C7260921F9C92F00C74A1A /* FrameFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameFileReader.swift; sourceTree = "<group>"; };
 		E4C7260A21F9C92F00C74A1A /* OCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCUtil.h; sourceTree = "<group>"; };
 		E4C7262121F9CEA200C74A1A /* SwiftOCBridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOCBridgeHeader.h; sourceTree = "<group>"; };
-		E4C7262321F9CEF800C74A1A /* BufferReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferReader.h; sourceTree = "<group>"; };
-		E4C7262421F9CEF800C74A1A /* BufferReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferReader.m; sourceTree = "<group>"; };
 		E4C7263921F9D83100C74A1A /* SwingHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E4ACC0D122291411006775E9 /* BufferReader */ = {
+			isa = PBXGroup;
+			children = (
+				E4ACC0D222291411006775E9 /* BufferReader.h */,
+				E4ACC0D322291411006775E9 /* BufferReader.m */,
+			);
+			path = BufferReader;
+			sourceTree = "<group>";
+		};
 		E4C725D621F9A72B00C74A1A = {
 			isa = PBXGroup;
 			children = (
@@ -119,13 +130,14 @@
 				E4C725E421F9A72B00C74A1A /* ViewController.swift */,
 				E4C7262121F9CEA200C74A1A /* SwiftOCBridgeHeader.h */,
 				E4C7263921F9D83100C74A1A /* SwingHelper.swift */,
-				E4C7262221F9CEF800C74A1A /* BufferReader */,
+				E4ACC0D122291411006775E9 /* BufferReader */,
 				E4C725F421F9C80900C74A1A /* SwingRecord */,
 				E4C725E621F9A72B00C74A1A /* Main.storyboard */,
 				E4C725E921F9A72B00C74A1A /* Assets.xcassets */,
 				E4C725EB21F9A72B00C74A1A /* LaunchScreen.storyboard */,
 				E41F8F4121FC320D00D965A3 /* 1548483163476633.MOV */,
 				E41F8F4321FC338300D965A3 /* 1548483512759682.MOV */,
+				E4ACC0D52229169A006775E9 /* 1551425248084953.MOV */,
 				E41F8F3F21FC088500D965A3 /* 4.mp4 */,
 				E4C725EE21F9A72B00C74A1A /* Info.plist */,
 			);
@@ -166,16 +178,6 @@
 				E4C7260A21F9C92F00C74A1A /* OCUtil.h */,
 			);
 			path = FrameDecoder;
-			sourceTree = "<group>";
-		};
-		E4C7262221F9CEF800C74A1A /* BufferReader */ = {
-			isa = PBXGroup;
-			children = (
-				E4C7262321F9CEF800C74A1A /* BufferReader.h */,
-				E4C7262421F9CEF800C74A1A /* BufferReader.m */,
-			);
-			name = BufferReader;
-			path = ../../../../../Downloads/ThreeDSwing/ios/ThreeDSwing/Classes/ThirdLibs/BufferReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +246,7 @@
 				E4C725EA21F9A72B00C74A1A /* Assets.xcassets in Resources */,
 				E41F8F4221FC320D00D965A3 /* 1548483163476633.MOV in Resources */,
 				E4C725E821F9A72B00C74A1A /* Main.storyboard in Resources */,
+				E4ACC0D62229169A006775E9 /* 1551425248084953.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,13 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4ACC0D422291411006775E9 /* BufferReader.m in Sources */,
 				E4C7261321F9C92F00C74A1A /* FrameReaderDelegate.swift in Sources */,
 				E4C7260F21F9C92F00C74A1A /* VideoOperationManager.swift in Sources */,
 				E4C7261A21F9C92F00C74A1A /* FrameFileReader.swift in Sources */,
 				E4C7261521F9C92F00C74A1A /* OCUtil.m in Sources */,
 				E4C7261221F9C92F00C74A1A /* FrameReaderModelProtocol.swift in Sources */,
 				E4C7261921F9C92F00C74A1A /* FrameReader.swift in Sources */,
-				E4C7262521F9CEF800C74A1A /* BufferReader.m in Sources */,
 				E4C7261021F9C92F00C74A1A /* FrameReaderModel.swift in Sources */,
 				E4C7261621F9C92F00C74A1A /* FrameReaderProtocol.swift in Sources */,
 				E4C725E521F9A72B00C74A1A /* ViewController.swift in Sources */,

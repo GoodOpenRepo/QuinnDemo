@@ -14,7 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let input = Bundle.main.path(forResource: "1548483512759682", ofType: "MOV")
+
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let input = Bundle.main.path(forResource: "1551425248084953", ofType: "MOV")
         let inputURL = URL.init(fileURLWithPath: input!)
         
         let userDirectory = FileManager.default.urls(for: .allLibrariesDirectory, in: .userDomainMask).first
@@ -24,7 +28,7 @@ class ViewController: UIViewController {
         }
         try! FileManager.default.createDirectory(at: outputURL, withIntermediateDirectories: true, attributes: nil)
         
-        let model = FrameReaderModel.init(id: "0", inputUrl: inputURL, outputUrl: outputURL, framesCount: 106)
+        let model = FrameReaderModel.init(id: "0", inputUrl: inputURL, outputUrl: outputURL, framesCount: 75)
         let _ = VideoOperationManager.sharedInstance.startDecode(forModel: model, andDelegate: self, cancelOtherOpertaions: true)
     }
 

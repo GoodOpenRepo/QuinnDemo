@@ -16,6 +16,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        func downLoadFont(){
+            let libPath = FileManager.default.urls(for: .allLibrariesDirectory, in: .userDomainMask).first!
+            let path = libPath.appendingPathComponent("zzzz.ttf")
+            print("path-->",path)
+             try? UIFont.register(url: path)
+//            let urlSession = URLSession.init(configuration: URLSessionConfiguration.default)
+//            let url = URL.init(string: "https://github.com/quinn0809/QuinnDemo/raw/master/zzztest.ttf")
+//            let task = urlSession.dataTask(with: url!) { [weak self](data, response, error) in
+//                try? data?.write(to: path)
+//
+//                //先注册
+//                try? UIFont.register(url: path)
+//                //            //再使用
+//                DispatchQueue.main.async {[weak self]in
+//
+//                }
+//
+//
+//                //发送通知
+//
+//                //sticker reload init 方法中
+//            }
+//            task.resume()
+        }
+        
+        downLoadFont()
         return true
     }
 
