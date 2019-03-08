@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4C6052122325E540073C1E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C6052022325E540073C1E9 /* AppDelegate.swift */; };
+		E4C6052322325E540073C1E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C6052222325E540073C1E9 /* ViewController.swift */; };
+		E4C6052622325E540073C1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C6052422325E540073C1E9 /* Main.storyboard */; };
+		E4C6052822325E550073C1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C6052722325E550073C1E9 /* Assets.xcassets */; };
+		E4C6052B22325E550073C1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C6052922325E550073C1E9 /* LaunchScreen.storyboard */; };
+		E4C60539223261350073C1E9 /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C60538223261350073C1E9 /* SDAVAssetExportSession.m */; };
+		E4C6053B223261FD0073C1E9 /* 1551171738863895.MOV in Resources */ = {isa = PBXBuildFile; fileRef = E4C6053A223261FD0073C1E9 /* 1551171738863895.MOV */; };
+		E4C6053E223273BE0073C1E9 /* XHExportVideoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C6053D223273BE0073C1E9 /* XHExportVideoHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4C6051D22325E540073C1E9 /* VideoCompress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoCompress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4C6052022325E540073C1E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4C6052222325E540073C1E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4C6052522325E540073C1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4C6052722325E550073C1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4C6052A22325E550073C1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4C6052C22325E550073C1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C60533223261270073C1E9 /* VideoCompress-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoCompress-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4C60537223261350073C1E9 /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAVAssetExportSession.h; sourceTree = "<group>"; };
+		E4C60538223261350073C1E9 /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAVAssetExportSession.m; sourceTree = "<group>"; };
+		E4C6053A223261FD0073C1E9 /* 1551171738863895.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1551171738863895.MOV; sourceTree = "<group>"; };
+		E4C6053C223273BE0073C1E9 /* XHExportVideoHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHExportVideoHelper.h; sourceTree = "<group>"; };
+		E4C6053D223273BE0073C1E9 /* XHExportVideoHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHExportVideoHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4C6051A22325E540073C1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4C6051422325E540073C1E9 = {
+			isa = PBXGroup;
+			children = (
+				E4C6051F22325E540073C1E9 /* VideoCompress */,
+				E4C6051E22325E540073C1E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4C6051E22325E540073C1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C6051D22325E540073C1E9 /* VideoCompress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4C6051F22325E540073C1E9 /* VideoCompress */ = {
+			isa = PBXGroup;
+			children = (
+				E4C6052022325E540073C1E9 /* AppDelegate.swift */,
+				E4C6052222325E540073C1E9 /* ViewController.swift */,
+				E4C6052422325E540073C1E9 /* Main.storyboard */,
+				E4C6052722325E550073C1E9 /* Assets.xcassets */,
+				E4C6052922325E550073C1E9 /* LaunchScreen.storyboard */,
+				E4C6052C22325E550073C1E9 /* Info.plist */,
+				E4C6053A223261FD0073C1E9 /* 1551171738863895.MOV */,
+				E4C6053C223273BE0073C1E9 /* XHExportVideoHelper.h */,
+				E4C6053D223273BE0073C1E9 /* XHExportVideoHelper.m */,
+				E4C60537223261350073C1E9 /* SDAVAssetExportSession.h */,
+				E4C60538223261350073C1E9 /* SDAVAssetExportSession.m */,
+				E4C60533223261270073C1E9 /* VideoCompress-Bridging-Header.h */,
+			);
+			path = VideoCompress;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4C6051C22325E540073C1E9 /* VideoCompress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4C6052F22325E550073C1E9 /* Build configuration list for PBXNativeTarget "VideoCompress" */;
+			buildPhases = (
+				E4C6051922325E540073C1E9 /* Sources */,
+				E4C6051A22325E540073C1E9 /* Frameworks */,
+				E4C6051B22325E540073C1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoCompress;
+			productName = VideoCompress;
+			productReference = E4C6051D22325E540073C1E9 /* VideoCompress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4C6051522325E540073C1E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Quinn;
+				TargetAttributes = {
+					E4C6051C22325E540073C1E9 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = E4C6051822325E540073C1E9 /* Build configuration list for PBXProject "VideoCompress" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4C6051422325E540073C1E9;
+			productRefGroup = E4C6051E22325E540073C1E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4C6051C22325E540073C1E9 /* VideoCompress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4C6051B22325E540073C1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C6052B22325E550073C1E9 /* LaunchScreen.storyboard in Resources */,
+				E4C6052822325E550073C1E9 /* Assets.xcassets in Resources */,
+				E4C6053B223261FD0073C1E9 /* 1551171738863895.MOV in Resources */,
+				E4C6052622325E540073C1E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4C6051922325E540073C1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4C6052322325E540073C1E9 /* ViewController.swift in Sources */,
+				E4C6053E223273BE0073C1E9 /* XHExportVideoHelper.m in Sources */,
+				E4C60539223261350073C1E9 /* SDAVAssetExportSession.m in Sources */,
+				E4C6052122325E540073C1E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4C6052422325E540073C1E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C6052522325E540073C1E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4C6052922325E550073C1E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4C6052A22325E550073C1E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4C6052D22325E550073C1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4C6052E22325E550073C1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4C6053022325E550073C1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V95KM6E24P;
+				INFOPLIST_FILE = VideoCompress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinn.fontkit.VideoCompress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoCompress/VideoCompress-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4C6053122325E550073C1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V95KM6E24P;
+				INFOPLIST_FILE = VideoCompress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinn.fontkit.VideoCompress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VideoCompress/VideoCompress-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4C6051822325E540073C1E9 /* Build configuration list for PBXProject "VideoCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C6052D22325E550073C1E9 /* Debug */,
+				E4C6052E22325E550073C1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4C6052F22325E550073C1E9 /* Build configuration list for PBXNativeTarget "VideoCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4C6053022325E550073C1E9 /* Debug */,
+				E4C6053122325E550073C1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4C6051522325E540073C1E9 /* Project object */;
+}
