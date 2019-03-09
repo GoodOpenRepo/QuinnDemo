@@ -4,3 +4,5 @@
 
 #import "SDAVAssetExportSession.h"
 #import "XHExportVideoHelper.h"
+#import "XHImageCrophelper.h"
+#import "XLHelpClass.h"

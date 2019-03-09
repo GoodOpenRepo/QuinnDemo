@@ -15,6 +15,11 @@
 		E4C60539223261350073C1E9 /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C60538223261350073C1E9 /* SDAVAssetExportSession.m */; };
 		E4C6053B223261FD0073C1E9 /* 1551171738863895.MOV in Resources */ = {isa = PBXBuildFile; fileRef = E4C6053A223261FD0073C1E9 /* 1551171738863895.MOV */; };
 		E4C6053E223273BE0073C1E9 /* XHExportVideoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C6053D223273BE0073C1E9 /* XHExportVideoHelper.m */; };
+		E4C605412233653A0073C1E9 /* XLHelpClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = E4C605402233653A0073C1E9 /* XLHelpClass.mm */; };
+		E4C6054422336C880073C1E9 /* XHImageCrophelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C6054322336C880073C1E9 /* XHImageCrophelper.m */; };
+		E4C6054622336D4C0073C1E9 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4C6054522336D4C0073C1E9 /* 9.jpg */; };
+		E4C6054822336D550073C1E9 /* 19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4C6054722336D550073C1E9 /* 19.jpg */; };
+		E4C6054C22336FAD0073C1E9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = E4C6054B22336FAD0073C1E9 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,13 @@
 		E4C6053A223261FD0073C1E9 /* 1551171738863895.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1551171738863895.MOV; sourceTree = "<group>"; };
 		E4C6053C223273BE0073C1E9 /* XHExportVideoHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHExportVideoHelper.h; sourceTree = "<group>"; };
 		E4C6053D223273BE0073C1E9 /* XHExportVideoHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHExportVideoHelper.m; sourceTree = "<group>"; };
+		E4C6053F2233653A0073C1E9 /* XLHelpClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLHelpClass.h; sourceTree = "<group>"; };
+		E4C605402233653A0073C1E9 /* XLHelpClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XLHelpClass.mm; sourceTree = "<group>"; };
+		E4C6054222336C880073C1E9 /* XHImageCrophelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XHImageCrophelper.h; sourceTree = "<group>"; };
+		E4C6054322336C880073C1E9 /* XHImageCrophelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHImageCrophelper.m; sourceTree = "<group>"; };
+		E4C6054522336D4C0073C1E9 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		E4C6054722336D550073C1E9 /* 19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19.jpg; sourceTree = "<group>"; };
+		E4C6054B22336FAD0073C1E9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,18 +75,25 @@
 		E4C6051F22325E540073C1E9 /* VideoCompress */ = {
 			isa = PBXGroup;
 			children = (
+				E4C6054522336D4C0073C1E9 /* 9.jpg */,
 				E4C6052022325E540073C1E9 /* AppDelegate.swift */,
 				E4C6052222325E540073C1E9 /* ViewController.swift */,
+				E4C6054722336D550073C1E9 /* 19.jpg */,
 				E4C6052422325E540073C1E9 /* Main.storyboard */,
 				E4C6052722325E550073C1E9 /* Assets.xcassets */,
 				E4C6052922325E550073C1E9 /* LaunchScreen.storyboard */,
 				E4C6052C22325E550073C1E9 /* Info.plist */,
 				E4C6053A223261FD0073C1E9 /* 1551171738863895.MOV */,
+				E4C6053F2233653A0073C1E9 /* XLHelpClass.h */,
+				E4C605402233653A0073C1E9 /* XLHelpClass.mm */,
 				E4C6053C223273BE0073C1E9 /* XHExportVideoHelper.h */,
 				E4C6053D223273BE0073C1E9 /* XHExportVideoHelper.m */,
+				E4C6054222336C880073C1E9 /* XHImageCrophelper.h */,
+				E4C6054322336C880073C1E9 /* XHImageCrophelper.m */,
 				E4C60537223261350073C1E9 /* SDAVAssetExportSession.h */,
 				E4C60538223261350073C1E9 /* SDAVAssetExportSession.m */,
 				E4C60533223261270073C1E9 /* VideoCompress-Bridging-Header.h */,
+				E4C6054B22336FAD0073C1E9 /* images */,
 			);
 			path = VideoCompress;
 			sourceTree = "<group>";
@@ -139,8 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C6052B22325E550073C1E9 /* LaunchScreen.storyboard in Resources */,
+				E4C6054822336D550073C1E9 /* 19.jpg in Resources */,
 				E4C6052822325E550073C1E9 /* Assets.xcassets in Resources */,
 				E4C6053B223261FD0073C1E9 /* 1551171738863895.MOV in Resources */,
+				E4C6054622336D4C0073C1E9 /* 9.jpg in Resources */,
+				E4C6054C22336FAD0073C1E9 /* images in Resources */,
 				E4C6052622325E540073C1E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C6052322325E540073C1E9 /* ViewController.swift in Sources */,
+				E4C6054422336C880073C1E9 /* XHImageCrophelper.m in Sources */,
+				E4C605412233653A0073C1E9 /* XLHelpClass.mm in Sources */,
 				E4C6053E223273BE0073C1E9 /* XHExportVideoHelper.m in Sources */,
 				E4C60539223261350073C1E9 /* SDAVAssetExportSession.m in Sources */,
 				E4C6052122325E540073C1E9 /* AppDelegate.swift in Sources */,

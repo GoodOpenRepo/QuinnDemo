@@ -12,6 +12,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface XHExportVideoHelper : NSObject
+@property (nonatomic, copy) void(^imageBlock)(UIImage * __nullable);
+
 - (void)export:(AVURLAsset*)urlAsset withOutput:(NSURL*)outputFileURL handler:(void (^)(AVAssetExportSessionStatus status))handler;
 
 @end

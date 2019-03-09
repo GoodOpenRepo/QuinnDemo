@@ -9,8 +9,15 @@
 #import "XHExportVideoHelper.h"
 #import <VideoToolbox/VideoToolbox.h>
 #import "SDAVAssetExportSession.h"
+#import "XLHelpClass.h"
+
+@interface XHExportVideoHelper ()<SDAVAssetExportSessionDelegate>//遵循协议
+@property (nonatomic,strong,nullable)  UIImage *firstImg;
+
+@end
 
 @implementation XHExportVideoHelper
+
 - (NSDictionary *)getVideoInfo:(AVURLAsset*)urlAsset
 {
     AVAssetTrack *videoTrack = nil;
@@ -47,7 +54,7 @@
 }
 
 - (void)export:(AVURLAsset*)urlAsset withOutput:(NSURL*)outputFileURL handler:(void (^)(AVAssetExportSessionStatus status))handler{
-    
+    _firstImg = nil;
     NSDictionary *videoInfo = [self getVideoInfo:urlAsset];
     
     int width = [videoInfo[@"width"] intValue];
@@ -104,10 +111,9 @@
     encoder.outputFileType = AVFileTypeMPEG4;
     encoder.outputURL = outputFileURL;
     
-    
     encoder.videoSettings = videoSettings;
     encoder.audioSettings = audioOutputSettings;
-    
+
     [encoder exportAsynchronouslyWithCompletionHandler:^
     {
         if (encoder.status == AVAssetExportSessionStatusCompleted)
@@ -120,9 +126,29 @@
         }
         else
         {
-            NSLog(@"Video export failed with error: %@ (%d)", encoder.error.localizedDescription, encoder.error.code);
+            NSLog(@"Video export failed with error: %@ (%ld)", encoder.error.localizedDescription, (long)encoder.error.code);
         }
         handler(encoder.status);
     }];
+    
+    if (_firstImg ==  nil && _imageBlock != nil){
+        UIImage *img = [self getVideoPreViewImage:urlAsset];
+        _imageBlock(img);
+    }
+    
+    
 }
+- (UIImage*) getVideoPreViewImage:(AVURLAsset *)asset
+{
+    AVAssetImageGenerator *gen = [[AVAssetImageGenerator alloc] initWithAsset:asset];
+    gen.appliesPreferredTrackTransform = YES;
+    CMTime time = CMTimeMakeWithSeconds(0.0, 600);
+    NSError *error = nil;
+    CMTime actualTime;
+    CGImageRef image = [gen copyCGImageAtTime:time actualTime:&actualTime error:&error];
+    UIImage *img = [[UIImage alloc] initWithCGImage:image];
+    CGImageRelease(image);
+    return img;
+}
+
 @end
